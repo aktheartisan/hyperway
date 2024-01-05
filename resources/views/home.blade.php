@@ -9,175 +9,509 @@
             /*transform: scale(80%);
             transform-origin: top left;*/
         }
-    .super-power-india{
-        position: absolute;
-        top: 118px;
-        left: 30px;
-        display: inline-block;
-        width: 250px;
-        height: 240px; 
-        color: #fff;
-        font-size: 45px;
-        font-weight: 600;
-    }.honest-reliable-builders{
-        position: absolute;
-        top: 357px;
-        left: 10px;
-        font-size: 20px;
-        line-height: 30px;
-        font-weight: 600;
-        color: #fff;
-    }.rectangle-parent{
-        position: absolute;
-        top: 112px;
-        left: 745px;
-        width: 595px;
-        height: 80px;
-        font-size: 14px;
-    }.rectangle-parent {
-        position: absolute;
-        top: 84px;
-        left: 0;
-        width: 0px;
-        height: 80px;
-        font-size: 10px;
-    }.home{
-        left: 100px;
-    }.desktop-4-child {
-        position: absolute;
-        top: 108px;
-        left: 83px;
-        width: 180px;
-        height: 74px;
-    }.group-child {
-        position: absolute;
-        top: 24px;
-        left: 267px;
-        width: 49px;
-        height: 66px;
-}.desktop-4-item {
-    position: absolute;
-    top: 418px;
-    left: 12px;
-    width: 110px;
-    height: 43px;
-}.desktop-4-inner {
-    position: absolute;
-    top: 419px;
-    left: 134px;
-    width: 91px;
-    height: 42px;
-}.view-project {
-    position: absolute;
-    top: 438px;
-    left: 20px;
-    line-height: 4px;
-    font-weight: bold;
-    font-size: 16px;
-}.join-us {
-    position: absolute;
-    top: 423px;
-    left: 150px;
-    line-height: 30px;
-    font-weight: 600;
-}
+        .super-power-india{
+            position: absolute;
+            top: 118px;
+            left: 30px;
+            display: inline-block;
+            width: 250px;
+            height: 240px; 
+            color: #fff;
+            font-size: 45px;
+            font-weight: 600;
+        }.honest-reliable-builders{
+            position: absolute;
+            top: 357px;
+            left: 10px;
+            font-size: 20px;
+            line-height: 30px;
+            font-weight: 600;
+            color: #fff;
+        }.rectangle-parent{
+            position: absolute;
+            top: 112px;
+            left: 745px;
+            width: 595px;
+            height: 80px;
+            font-size: 14px;
+        }.rectangle-parent {
+            position: absolute;
+            top: 84px;
+            left: 0;
+            width: 0px;
+            height: 80px;
+            font-size: 10px;
+        }.home{
+            left: 100px;
+        }.desktop-4-child {
+            position: absolute;
+            top: 108px;
+            left: 83px;
+            width: 180px;
+            height: 74px;
+        }.group-child {
+            position: absolute;
+            top: 24px;
+            left: 267px;
+            width: 49px;
+            height: 66px;
+        }.desktop-4-item {
+            position: absolute;
+            top: 418px;
+            left: 12px;
+            width: 110px;
+            height: 43px;
+        }.desktop-4-inner {
+            position: absolute;
+            top: 419px;
+            left: 134px;
+            width: 91px;
+            height: 42px;
+        }.view-project {
+            position: absolute;
+            top: 438px;
+            left: 20px;
+            line-height: 4px;
+            font-weight: bold;
+            font-size: 16px;
+        }.join-us {
+            position: absolute;
+            top: 423px;
+            left: 150px;
+            line-height: 30px;
+            font-weight: 600;
+        }
 
-}
-.mobile-menu {
-    display: none;
-  }
- @media only screen and (max-width: 768px) {
-    .desktop-4-child,
-    .rectangle-parent {
-      display: none;
     }
-
-    .mobile-menu-button {
-      display: block;
-      position: absolute;
-      top: 18px;
-      right: 18px;
-      cursor: pointer;
-      color: white;
-      font-size: 24px;
-    }
-
     .mobile-menu {
-      display: none;
-      position: absolute;
-      top: 60px;
-      right: 0;
-      background-color: #333;
-      width: 100%;
-      text-align: center;
+        display: none;
     }
+    @media only screen and (max-width: 768px) {
+        .desktop-4-child,
+        .rectangle-parent {
+          display: none;
+      }
 
-    .mobile-menu a {
-      display: block;
-      padding: 15px;
-      color: white;
-      text-decoration: none;
-    }
+      .mobile-menu-button {
+          display: block;
+          position: absolute;
+          top: 18px;
+          right: 18px;
+          cursor: pointer;
+          color: white;
+          font-size: 24px;
+      }
 
-    .mobile-menu.active {
-      display: block;
-    }
+      .mobile-menu {
+          display: none;
+          position: absolute;
+          top: 60px;
+          right: 0;
+          background-color: #333;
+          width: 100%;
+          text-align: center;
+      }
+
+      .mobile-menu a {
+          display: block;
+          padding: 15px;
+          color: white;
+          text-decoration: none;
+      }
+
+      .mobile-menu.active {
+          display: block;
+      }
   }
 </style>
-<div class="desktop-4">
-        <img class="w3-1-icon" alt="" src="{{url('public/img/undefined7.png')}}">
-        
-         <div class="mobile-menu-button">&#9776;</div>
-        <div class="desktop-4-child"></div>
-        <div class="rectangle-parent">
-            <div class="group-child">
-            </div>
-            <div class="contact"><a href="{{url('contact')}}">To Unite empery</a></div>
-            <div class="home"><a href="{{url('/')}}">Home</a></div>
-            <div class="about-us"><a href="{{url('about')}}">About us</a></div>
-            <div class="gallery"><a href="{{url('gallery')}}">Gallery</a></div>
-            <div class="obligation"><a href="{{url('obligation')}}">Obligation</a></div>
-        </div>
-         
-        <div class="super-power-india">SUPER POWER INDIA 2030</div>
-        <div class="honest-reliable-builders">Honest, Reliable Builders since 1968</div>
-        <div class="desktop-4-item btn-sm">
-        </div>
-        <div class="desktop-4-inner btn-sm">
-        </div>
-        <div class="view-project"><a style="text-decoration: none;color: black;" href="{{url('obligation')}}">View Project</div>
-        <div class="join-us"><a style="text-decoration: none;color: black;" href="{{url('contact')}}">Join us</div>
 
-        <div class="mobile-menu">
-  <a href="{{url('/')}}">Home</a>
-  <a href="{{url('about')}}">About us</a>
-  <a href="{{url('gallery')}}">Gallery</a>
-  <a href="{{url('obligation')}}">Obligation</a>
-  <a href="{{url('contact')}}">To Unite empery</a>
-</div>
 
-<script>
-  // JavaScript to toggle the mobile menu
-  const mobileMenuButton = document.querySelector('.mobile-menu-button');
-  const mobileMenu = document.querySelector('.mobile-menu');
 
-  mobileMenuButton.addEventListener('click', () => {
-    mobileMenu.classList.toggle('active');
-  });
-</script>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script type="text/javascript">
-  $(document).ready(function() {
-    $(".mobile-menu-button").on('click', function() {
-      if ($(".mobile-menu").is(":visible")) {
-        $(".kn").hide();
-      } else {
-        $(".kn").show();
-      }
-    });
-  });
-</script>
+<header>
+    <a href="#" class="brand">TejasCity</a>
+    <div class="tg-btn"></div>
+    <div class="navigation">
+        <div class="nav-items">
+            <a href="{{url('/')}}">HOME</a>
+            <a href="{{url('about')}}">ABOUT</a>
+            <a href="{{url('service')}}">SERVICE</a>
+            <a href="{{url('contact')}}">CONTACT</a>
+        </div>
     </div>
+</header>
+
+<section class="home">
+    <img class="vid-slide active" src="{{('public/img/caro1.png')}}">
+    <img class="vid-slide" src="{{('public/img/caro2.png')}}">
+    <img class="vid-slide" src="{{('public/img/caro3.png')}}">
+
+</section>
+
+        <div class="slide-navig">
+            <div class="nav-btn"></div>
+            <div class="nav-btn"></div>
+            <div class="nav-btn"></div>
+        </div>
+
+<style type="text/css">
+
+    /* carousel*/
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    .phmail{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        z-index: 999;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        color: white;
+        padding: 20px 30px;
+    }
+
+    .conttext{
+
+        font-size: 18px;
+        font-weight: 650;
+    }
+
+
+        header{
+            position: absolute;
+            z-index: 999;
+            top: 0;
+            left: 0;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding:50px 100px;
+            transition: 0.5s ease;
+        }
+
+        header .brand{
+
+            text-decoration: none;
+            color: white;
+            font-size: 1.5em;
+            font-weight: 700;
+        }
+
+        header .navigation{
+            position: relative;
+        }
+
+        header .navigation .nav-items a {
+
+            position: relative;
+            color: white;
+            font-size: 16px;
+            font-weight: 650;
+            text-decoration: none;
+            margin-left: 30px;
+            transition: 0.3s ease;
+        }
+
+        header .navigation .nav-items a:before{
+            content: '';
+            position: absolute;
+            background: white;
+            width:0;
+            height: 2px;
+            bottom: -2px;
+            left: 0;
+            transition: 0.3s ease;
+        }
+
+        header .navigation .nav-items a:hover:before{
+
+            width: 100%;
+        }
+
+        section{
+
+            padding: 100px 200px;
+            color: white;
+        }
+
+        .home{
+
+            position: relative;
+            width: 100%;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .home .content{
+
+            z-index: 888;
+            width: 100%;
+            margin-top: 50px;
+            display: none;
+            text-align: center;
+        }
+
+        .home .content.active{
+
+            display: block;
+        }
+
+        .home .content p{
+
+            margin-bottom: 65px;
+        }
+
+        .home .content a{
+
+            background: orange;
+            padding: 15px 35px;
+            color: white;
+            font-size: 1.1em;
+            font-weight: 500;
+            text-decoration: none;
+            border-radius: 5px;
+
+        }
+
+        .home img{
+
+            z-index: 000;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .slide-navig{
+
+            z-index: 888;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transform: translateY(80px);
+            margin-bottom: 12px;
+        }
+
+        .slide-navig .nav-btn{
+
+            width: 12px;
+            height: 12px;
+            background: #fff;
+            border-radius: 50%;
+            cursor: pointer;
+            box-shadow: 0 0 2px rgba(255, 255, 255, 0.5);
+            transition: 0.3s ease;
+        }
+
+        .slide-navig .nav-btn:not(:last-child){
+
+            margin-right: 10px;
+        }
+
+        .slide-navig .nav-btn:hover{
+
+            transform: scale(1.5);
+        }
+
+
+        .vid-slide{
+
+            position: absolute;
+            width: 100%;
+            clip-path: circle(0% at 0 50%);
+        }
+
+        .vid-slide.active{
+
+          clip-path: circle(150% at 0 50%);
+          transition: 2s ease;
+          transition-property: clip-path;
+
+          /* end carousel*/
+      }
+
+      @media only screen and (max-width:768px){
+
+        /* for carousel */
+
+        header{
+
+            padding: 15px 20px;
+        }
+
+        section{
+
+            padding: 100px 20px;
+        }
+
+        header .navigation{
+
+         display: none;
+     }
+
+     header .navigation.active{
+
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgba(1, 1, 1, 0.5);
+    }
+
+
+    header .navigation .nav-items a {
+        color: black;
+        font-size: 1em;
+        font-weight: 500;
+        margin: 20px;
+
+    }
+
+
+    header .navigation.active .nav-items{
+
+        background: #fff;
+        width: 400px;
+        max-width: 400px;
+        margin: 20px;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 5px;
+        box-shadow: 0 5px 25px rgb(1, 1, 1/ 20%);
+
+    }
+
+    header .navigation .nav-items a:before{
+
+      background: #222;
+      height: 5px;
+  }
+
+  .tg-btn{
+
+    background: url('public/img/menu.png');
+    width: 40px;
+    height: 40px;
+    background-size: 40px;
+    background-position: center;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.tg-btn.active{
+
+    z-index: 999;
+    background: url('public/img/cancel.png');
+    background-size: 30px;
+    background-position: center;
+    transition: 0.3s ease;
+    background-repeat: no-repeat;
+}
+
+/* end carousel */
+}
+</style>
+
+
+<script type="text/javascript">
+
+    //responsive toggle icon
+
+    const menuBtn = document.querySelector('.tg-btn');
+    const nav = document.querySelector('.navigation');
+
+
+    menuBtn.addEventListener('click',()=>{
+
+        menuBtn.classList.toggle('active');
+        nav.classList.toggle('active');
+
+    });
+
+        //for video slider
+    const btns = document.querySelectorAll('.nav-btn');
+
+    const slides = document.querySelectorAll('.vid-slide');
+
+    
+
+    var sliderNav = function(manual){
+
+        btns.forEach((btn)=>{
+
+            btn.classList.remove('active')
+        });
+
+
+        slides.forEach((slide)=>{
+
+            slide.classList.remove('active')
+        });
+
+
+        btns[manual].classList.add('active');
+        slides[manual].classList.add('active');
+        
+    }
+
+    btns.forEach((btn,i)=>{
+
+        btn.addEventListener('click',()=>{
+
+            sliderNav(i);
+        });
+    });
+
+    // ... (Your existing code)
+
+// Variable to keep track of the current slide index
+    let currentSlideIndex = 0;
+
+// Function to change the slide automatically
+    function autoSlide() {
+    // Increment the slide index
+        currentSlideIndex++;
+
+    // If the index exceeds the number of slides, reset it to 0
+        if (currentSlideIndex === slides.length) {
+            currentSlideIndex = 0;
+        }
+
+    // Call the sliderNav function with the updated index
+        sliderNav(currentSlideIndex);
+    }
+
+// Set an interval to call autoSlide every 5000 milliseconds (5 seconds)
+    const slideInterval = setInterval(autoSlide, 5000);
+
+// Stop the interval when the user interacts with the slider (e.g., clicks a button)
+    btns.forEach((btn, i) => {
+        btn.addEventListener('click', () => {
+        // Clear the interval to stop automatic sliding
+            clearInterval(slideInterval);
+
+        // Call the sliderNav function with the clicked button index
+            sliderNav(i);
+        });
+    });
+
+</script>
 
 
 <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
@@ -270,13 +604,13 @@
         font-weight: 700;
         font-size: 20px;
 /*        font-family: 'Black Ops One', cursive;*/
-    }.gr{
-        color: black;
-        padding: 50px 15px !important;
-    }
-    .gr p{
-        font-family: 'Lobstr', cursive;
-    }
+}.gr{
+    color: black;
+    padding: 50px 15px !important;
+}
+.gr p{
+    font-family: 'Lobstr', cursive;
+}
 </style>
 <section class="ful">
     <div class="container">
@@ -414,23 +748,23 @@
     }.cote h4{
        font-weight: 800;/*
        font-family:  Black Ops One,cursive;*/
-    }.bica{
-        width: 360px;
-        background-color: #f3f3f3;
-        box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
-        border: none;
-    }.chi{
-        background-color: #ff0000;
-        color: white;
-        font-weight: 700;
-        border-radius: 50px;
-    }.cepo{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-        @media only screen and (min-width:320px) and (max-width:560px){
-        .bica {
+   }.bica{
+    width: 360px;
+    background-color: #f3f3f3;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+    border: none;
+}.chi{
+    background-color: #ff0000;
+    color: white;
+    font-weight: 700;
+    border-radius: 50px;
+}.cepo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media only screen and (min-width:320px) and (max-width:560px){
+    .bica {
         width: 75%;
 
     }.conpic {
@@ -531,34 +865,34 @@
     }.twon h1{
         font-weight: 700;
 /*        font-size: 25px;*/
-    }.twon h4{
-        font-weight: 600;
-    }.blco{
-        background: linear-gradient(59.12deg, #000, rgba(30, 30, 30, 0));
-        position: absolute;
-        z-index: 1;
-        width: 100%;
+}.twon h4{
+    font-weight: 600;
+}.blco{
+    background: linear-gradient(59.12deg, #000, rgba(30, 30, 30, 0));
+    position: absolute;
+    z-index: 1;
+    width: 100%;
     height: 100%;
     top: 0;
-    }.glim{
-        position: relative;
-    }.pic{
-        position: absolute;
+}.glim{
+    position: relative;
+}.pic{
+    position: absolute;
     color: white;
     z-index: 1;
     bottom: 6vh;
     left: 52px;
     font-family: times;
-    }.kipo{
-        margin: 0 0 50px 0;
-    }.careff{
-        box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
-        border: none !important;
-        background-color: #f3f3f3 !important;
-    }
+}.kipo{
+    margin: 0 0 50px 0;
+}.careff{
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+    border: none !important;
+    background-color: #f3f3f3 !important;
+}
 
-    @media only screen and (min-width:320px) and (max-width:560px){
-        .twon h4{
+@media only screen and (min-width:320px) and (max-width:560px){
+    .twon h4{
         font-size: 11px;
     }.twon h1{
         font-size: 18px;
@@ -575,26 +909,26 @@
     }
 
 
-    }
+}
 </style>
 <section class="kipo">
     <div class="container-fluid">
         <div class="twon">
-                <h1>FUTURE INDIA</h1>
-                <h4>CITY WITH EQUITY - EFFICIENCY - OPPORTUNITY</h4>
-            </div>
+            <h1>FUTURE INDIA</h1>
+            <h4>CITY WITH EQUITY - EFFICIENCY - OPPORTUNITY</h4>
+        </div>
         <div class="card careff">
-            
+
             <div class="glim">
-               <img alt="" style="width: 100%;height: 100%;" src="{{url('public/img/undefined21.png')}}" />
-               <div class="blco"></div>
-           </div>
-           <div class="pic">
-             <h2>HYPER WAY PROJECT</h2>
-             <span>This socio-economic plan can solve more issues and thus a new India will be formed.</span>
+             <img alt="" style="width: 100%;height: 100%;" src="{{url('public/img/undefined21.png')}}" />
+             <div class="blco"></div>
          </div>
-     </div>
- </div>
+         <div class="pic">
+           <h2>HYPER WAY PROJECT</h2>
+           <span>This socio-economic plan can solve more issues and thus a new India will be formed.</span>
+       </div>
+   </div>
+</div>
 </section>
 
-    @include('footer')
+@include('footer')
